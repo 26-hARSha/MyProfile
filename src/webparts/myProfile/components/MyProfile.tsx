@@ -41,7 +41,7 @@ export default class MyMail extends React.Component<
           .select(" type")
           .get((err: any, res: any) => {
             this.setState({
-             type:res.type
+            /*  type:res.type */
             });
              /* console.log(res);
             console.log(err);  */ 
@@ -64,8 +64,8 @@ export default class MyMail extends React.Component<
               mobilePhone: res.mobilePhone,
               id: res.id,
             });
-             /* console.log(res);
-            console.log(err);  */ 
+             console.log(res);
+            console.log(err);  
           });
       });
   };

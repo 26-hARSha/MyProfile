@@ -115,8 +115,8 @@ export default class MyMailWebPart extends BaseClientSideWebPart<IMyMailWebPartP
                 }), 
                  PropertyPaneSlider('webHeight', {
                   label: "Compnent Height",
-                  min: 330,
-                  max: 1000,
+                  min: 270,
+                  max: 1500,
                 }),
               ]
             }

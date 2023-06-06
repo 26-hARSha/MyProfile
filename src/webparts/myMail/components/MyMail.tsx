@@ -82,7 +82,7 @@ export default class MyMail extends React.Component<IMyMailProps, IAllItems> {
               >
          <p className={styles.circleshape} style={{
                   backgroundColor: email.isRead == false ? " red" : " green",
-                }}></p>
+                }}></p> 
                 <p> {email.from.emailAddress.name}</p>
                 <p>{email.subject}</p>
                 <p>{moment(email.receivedDateTime).format("LL")}</p>
