@@ -18,7 +18,7 @@
     "group": { "default": "Advanced" },
     "title": { "default": "Events" },
     "description": { "default": "Events description" },
-    "officeFabricIconFontName": "Hrader1",
+    "officeFabricIconFontName": "Header1",
     "properties": {
       "description": "Events"
     }

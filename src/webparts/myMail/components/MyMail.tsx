@@ -69,7 +69,7 @@ export default class MyMail extends React.Component<IMyMailProps, IAllItems> {
         <h3>My Mails</h3>
         {this.state.AllEmails.map((email) => {
           return (
-            <div >
+            <div>
               <div
                 className={styles.cardNumber}
                
