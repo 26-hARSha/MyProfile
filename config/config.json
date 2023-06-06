@@ -1,0 +1,63 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "graph-api-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/graphApi/GraphApiWebPart.js",
+          "manifest": "./src/webparts/graphApi/GraphApiWebPart.manifest.json"
+        }
+      ]
+    },
+    "my-mail-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/myMail/MyMailWebPart.js",
+          "manifest": "./src/webparts/myMail/MyMailWebPart.manifest.json"
+        }
+      ]
+    },
+    "my-profile-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/myProfile/MyProfileWebPart.js",
+          "manifest": "./src/webparts/myProfile/MyProfileWebPart.manifest.json"
+        }
+      ]
+    },
+    "my-plans-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/myPlans/MyPlansWebPart.js",
+          "manifest": "./src/webparts/myPlans/MyPlansWebPart.manifest.json"
+        }
+      ]
+    },
+    "manager-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/manager/ManagerWebPart.js",
+          "manifest": "./src/webparts/manager/ManagerWebPart.manifest.json"
+        }
+      ]
+    },
+    "events-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/events/EventsWebPart.js",
+          "manifest": "./src/webparts/events/EventsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "GraphApiWebPartStrings": "lib/webparts/graphApi/loc/{locale}.js",
+    "MyMailWebPartStrings": "lib/webparts/myMail/loc/{locale}.js",
+    "MyProfileWebPartStrings": "lib/webparts/myProfile/loc/{locale}.js",
+    "MyPlansWebPartStrings": "lib/webparts/myPlans/loc/{locale}.js",
+    "ManagerWebPartStrings": "lib/webparts/manager/loc/{locale}.js",
+    "EventsWebPartStrings": "lib/webparts/events/loc/{locale}.js"
+  }
+}

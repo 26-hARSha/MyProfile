@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": false,
+    "nodeVersion": "16.16.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.9.1"
+    },
+    "version": "1.17.1",
+    "libraryName": "graph-api",
+    "libraryId": "0b3e8175-99e0-408e-8067-afb6cede671b",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "GraphApi",
+    "solutionShortDescription": "GraphApi description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
