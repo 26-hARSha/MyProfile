@@ -8,7 +8,7 @@ export default class GraphApi extends React.Component<IGraphApiProps, {}> {
  
 
     return (
-     <div>Hello</div>
+     <div style={{backgroundColor:"greenyellow"}}>Hello</div>
     );
   }
 }
